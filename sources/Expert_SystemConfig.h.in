@@ -1,0 +1,3 @@
+// the configured options and settings for Expert_System
+#define IoT_Model_VERSION_MAJOR @Expert_System_VERSION_MAJOR@
+#define IoT_Model_VERSION_MINOR @Expert_System_VERSION_MINOR@
