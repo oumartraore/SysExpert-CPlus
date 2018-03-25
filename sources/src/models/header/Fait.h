@@ -6,7 +6,7 @@
 using namespace std;
 
 /**
- * \file fait.h
+ * \file Fait.h
  * \brief Définition de la classe Fait.
  * \author TRAORE Oumar
  * \version 0.1
@@ -31,13 +31,13 @@ public:
 	~Fait();
 	
 	// Getter & Setter
-	string getNom();
+	string getNom() const;
 	void setNom(string nom);
-	string getQuestion();
+	string getQuestion() const;
 	void setQuestion(string question);
-	char getReponse();
+	char getReponse() const;
 	void setReponse(char reponse);
-	double getProbabilite();
+	double getProbabilite() const;
 	void setProbabilite(double probabilite);
 };
 

@@ -16,14 +16,10 @@ apt-get update
 apt-get install --yes vim 
 apt-get install --yes ssh
 apt-get install --yes rsync
-sudo apt-get install --yes software-properties-common
-sudo --yes add-apt-repository ppa:george-edison55/cmake-3.x
-sudo apt-get updates
 apt-get install --yes build-essential
 apt-get install --yes cmake
-apt-get update
-apt-get install --yes g++-6
-ln -f -s /usr/bin/g++-6 /usr/bin/g++
+#apt-get install --yes g++-6
+#ln -f -s /usr/bin/g++-6 /usr/bin/g++
 
 # Violation des droits pour permettre à un utilisation d'exécuter le POC
 chmod -Rf 777 /vagrant
